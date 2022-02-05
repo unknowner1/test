@@ -1,0 +1,42 @@
+<!Doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" style="width=device-width, initial-scale=1.0">
+    <title>오목판</title>
+    <style>
+        #header { 
+            height: 200px;
+            margin:0 auto;
+        }      
+        #center { 
+            height: 589px;
+            width: 589px;
+            margin:0 auto;
+        }     
+        #footer { 
+            height: 100px;
+            margin:0 auto;
+        } 
+        #groundiv { 
+            position: absolute;
+            height: 589px;
+            width: 589px;
+        } 
+    </style>
+</head>
+<body>
+    <div id="header">
+    </div>
+    <div id="center">
+        <div id="groundiv">
+            <img id="ground" src="ground.png" alt="이미지 깨짐" onclick="Click()" onmousemove="Move()">
+        </div>
+    </div>
+    <div id="footer">
+    </div>
+    <script src="Base.js"></script>
+    <script src="Ai.js"></script>
+    <script src="Player.js"></script>
+</body>
+</html>
